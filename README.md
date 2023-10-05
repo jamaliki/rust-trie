@@ -10,7 +10,7 @@ pip install -e git+https://github.com/jamaliki/rust-trie.git#egg=rust-trie&subdi
 
 ## Use case
 
-This is mainly meant to help with tokenization. A simple use case would be the following Python code, from [https://github.com/OpenBioML/protein-lm-scaling/blob/main/protein_lm/tokenizer/tokenizer.py](protein-lm-scaling) project:
+This is mainly meant to help with tokenization. A simple use case would be the following Python code, from [protein-lm-scaling](https://github.com/OpenBioML/protein-lm-scaling/blob/main/protein_lm/tokenizer/tokenizer.py) project:
 
 ```
 from rust_trie import Trie
